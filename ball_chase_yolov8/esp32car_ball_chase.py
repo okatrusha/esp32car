@@ -11,7 +11,7 @@ stream_url = f"http://{ESP_IP}/capture"
 command_url = f"http://{ESP_IP}/action?go="
 
 # Your YOLO model
-model = YOLO(r"C:\ASP\esp32car\yolov8-detection\yolov8m.pt")
+model = YOLO(r"yolov8m.pt")
 
 # Behavior parameters
 
